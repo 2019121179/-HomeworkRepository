@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>signup</title>
+            <link rel = "stylesheet" type = "text/css" href = "main.css">
+        </head>
+        <body>
+            <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+            <P class = "upper">
+                <a href = "login.html"><span class = "login">로그인</span></a>
+                <a href = "signup.html"><span class = "page">회원가입</span></a>
+            </P>
+            
+            <form method = "get" automcomplete = "on" action = "signup.html">
+                <p>개인정보(필수)</p>
+                <p><label>유저 아이디 :
+                    <input name = "ID" type = "text" size = "25" placeholder="아이디를 입력하세요" required autofocus />
+                <p><label>이름 :
+                    <input name = "name" type = "text" size = "25" placeholder="이름을 입력하세요" required />
+                </label></p>
+                <p><label>이메일 :
+                    <input name = "emali" type = "email" size = "25" placeholder="emali@domain.com" required />
+                </label></p>
+                <p><label>전화번호 :
+                    <input name = "tel" type = "tel" placeholder = "(###) ###-####" pattern = "\(\d{3}\) \d{3}-\d{4}" required />
+                </label></p>
+                <p><label>비밀번호 :
+                    <input name = "password" type = "password" size = "25" placeholder="8자 이상 입력하세요" minlength = "8" automcomplete = "off" required/>
+                </label></p>
+                <p><label>비밀번호 확인 :
+                    <input name = "password_check" type = "password" placeholder="비밀번호를 다시 입력하세요" automcomplete = "off" size = "25" required />
+                </label></p>
+
+                <p>개인정보(선택)</p>
+                <p><label>생일 :
+                    <input name = "date" type = "date" size = "25" placeholder="연도-월-일" />
+                </label></p>
+                <p><label>학년 :
+                    <input name = "code" type = "number" min = "1" max = "4" step ="1" placeholder="#" />
+                </label></p>
+                <p>방문경로 :
+                    <label>검색
+                        <input name = "howto" type = "checkbox" value = "search" />
+                    </label>
+                    <label>추천
+                        <input name = "howto" type = "checkbox" value = "recommend" />
+                    </label>
+                    <label>광고
+                        <input name = "howto" type = "checkbox" value = "advertisement" />
+                    </label>
+                    <label>기타
+                        <input name = "howto" type = "checkbox" value = "others" />
+                    </label>
+                </p>
+                <p>개인정보 보관 기간(미선택시 1년) :
+                    <label>1년
+                        <input name = "personalinfo" type = "radio" value = "1year" />
+                    </label>
+                    <label>3년
+                        <input name = "personalinfo" type = "radio" value = "3year" />
+                    </label>
+                    <label>5년
+                        <input name = "personalinfo" type = "radio" value = "5year" />
+                    </label>
+                    <label>탈퇴시까지
+                        <input name = "personalinfo" type = "radio" value = "exit" />
+                    </label>
+                </p>    
+                <P>
+                    <input class = "box1" name = "submit" type = "submit" value = "Signup">
+                    <input class = "box2" name = "reset" type = "reset" value = "Cancel">
+                </P>
+            </form>
+        </body>
+    </html>

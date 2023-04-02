@@ -1,0 +1,85 @@
+
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size:xx-large;
+    margin-left: 30px;
+}
+
+b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    color: darkgreen;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.page {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    border-top-style: solid;
+    border-top-color: brown ;
+    border-bottom-style: solid;
+    border-bottom-color: brown ;
+    color: darkmagenta;
+    margin-left: 90px;
+    text-align: center;
+}
+
+
+.box1 {
+    background-color: aquamarine;
+    width: 150px ;
+    height: 50px ;
+    text-align: center;
+    margin: 10px;
+    border-style: solid;
+    border-color: gray;
+    color: black;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box2 {
+    background-color: crimson;
+    width: 150px ;
+    height: 50px ;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    border-style: solid;
+    border-color: gray;
+    color: black;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box3 {
+    background-color: cadetblue;
+    width: 150px ;
+    height: 50px ;
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: solid;
+    border-color: gray;
+    color: black;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    padding: 30px;
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-color: chocolate;
+    border-bottom-style: solid;
+    border-bottom-color: chocolate;
+}

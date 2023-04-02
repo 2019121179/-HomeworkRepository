@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>login</title>
+            <link rel = "stylesheet" type = "text/css" href = "main.css">
+        </head>
+        <body>
+            <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+            <P>
+                <a href = "login.html"><span class = "page">로그인</span></a>
+            </P>
+            
+            <form method = "get" automcomplete = "on" action = "signup.html">
+                <p>회원정보(필수)</p>
+                <p><label>유저 아이디 :
+                    <input name = "ID" type = "text" size = "25" placeholder="아이디를 입력하세요" required autofocus />
+                </label></p>
+                <p><label>비밀번호 :
+                    <input name = "password" type = "password" size = "25" placeholder="8자 이상 입력하세요" minlength = "8" automcomplete = "off" required/>
+                </label></p>
+                <p><label>비밀번호 확인 :
+                    <input name = "password_check" type = "password" placeholder="비밀번호를 다시 입력하세요" automcomplete = "off" size = "25" required />
+                </label></p>    
+                <P>
+                    <input class = "box1" name = "login" type = "submit" value = "로그인">
+                    <a class = "box3" href = "signup.html">회원가입</a>
+                </P>
+            </form>
+        </body>
+    </html>
