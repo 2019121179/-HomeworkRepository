@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>login</title>
+            <link rel = "stylesheet" type = "text/css" href = "main.css">
+        </head>
+        <body>
+            <header>
+                <div class = "animation">
+                    <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+                </div>
+                <nav>
+                    <P>
+                        <a href = "index.html"><span class = "page">메인페이지</span></a>
+                        <a href = "login.html"><span class = "nowpage">로그인</span></a>
+                        <a href = "signup.html"><span class = "page">회원가입</span></a>
+                    </P>
+                </nav>
+            </header>
+            
+            <form method = "get" autocomplete = "on" action = "signup.html">
+                <p>회원정보(필수)</p>
+                <p><label>유저 아이디 :
+                    <input name = "ID" type = "text" size = "25" placeholder="아이디를 입력하세요" required autofocus />
+                </label></p>
+                <p><label>비밀번호 :
+                    <input name = "password" type = "password" size = "25" placeholder="8자 이상 입력하세요" minlength = "8" autocomplete = "off" required/>
+                </label></p>
+                <p><label>비밀번호 확인 :
+                    <input name = "password_check" type = "password" placeholder="비밀번호를 다시 입력하세요" autocomplete = "off" size = "25" required />
+                </label></p>    
+                <P>
+                    <input class = "box1" name = "login" type = "submit" value = "로그인">
+                    <a class = "box3" href = "signup.html">회원가입</a>
+                </P>
+            </form>
+        </body>
+    </html>
