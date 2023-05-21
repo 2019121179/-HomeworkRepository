@@ -1,0 +1,100 @@
+{
+"products": [
+    {
+      "id": 1,
+      "name": "Super supreme Pizza L",
+      "category": "pizza",
+      "price": 23000,
+      "image": "images/SSP.jpg",
+      "description": "슈퍼슈프림 피자 L사이즈"
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni Pizza L",
+      "category": "pizza",
+      "price": 22000,
+      "image": "images/PP.jpg",
+      "description": "페퍼로니 피자 L사이즈"
+    },
+    {
+      "id": 3,
+      "name": "Cheese Pizza L",
+      "category": "pizza",
+      "price": 20000,
+      "image": "images/CP.jpg",
+      "description": "치즈 피자 L사이즈"
+    },
+    {
+      "id": 4,
+      "name": "Super supreme Pizza M",
+      "category": "pizza",
+      "price": 14000,
+      "image": "images/SSP.jpg",
+      "description": "슈퍼슈프림 피자 M사이즈"
+    },
+    {
+      "id": 5,
+      "name": "Pepperoni Pizza M",
+      "category": "pizza",
+      "price": 13000,
+      "image": "images/PP.jpg",
+      "description": "페퍼로니 피자 M사이즈"
+    },
+    {
+      "id": 6,
+      "name": "Cheese Pizza M",
+      "category": "pizza",
+      "price": 12000,
+      "image": "images/CP.jpg",
+      "description": "치즈 피자 M사이즈"
+    },
+    {
+        "id": 7,
+        "name": "Fried Chicken",
+        "category": "chicken",
+        "price": 15000,
+        "image": "images/FC.jpg",
+        "description": "후라이드 치킨"
+      },
+      {
+        "id": 8,
+        "name": "Seasoned Spicy Chicken",
+        "category": "chicken",
+        "price": 17000,
+        "image": "images/SSC.jpg",
+        "description": "양념 치킨"
+      },
+      {
+        "id": 9,
+        "name": "Soy Cheese Chicken",
+        "category": "chicken",
+        "price": 19000,
+        "image": "images/SCC.jpg",
+        "description": "간장치즈 치킨"
+      },
+      {
+        "id": 10,
+        "name": "Boneless Fried Chicken",
+        "category": "chicken",
+        "price": 16000,
+        "image": "images/BFC.jpg",
+        "description": "순살 후라이드 치킨"
+      },
+      {
+        "id": 11,
+        "name": "Boneless Seasoned Spicy Chicken",
+        "category": "pizza",
+        "price": 18000,
+        "image": "images/BSSC.jpg",
+        "description": "순살 양념 치킨"
+      },
+      {
+        "id": 12,
+        "name": "Boneless Soy Cheese Chicken",
+        "category": "pizza",
+        "price": 21000,
+        "image": "images/BSCC.jpg",
+        "description": "순살 간장치즈 치킨"
+    }
+  ]
+}

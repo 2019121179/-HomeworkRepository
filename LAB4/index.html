@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>index</title>
+            <link rel = "stylesheet" type = "text/css" href = "main.css">
+        </head>
+        <body>
+            <header>
+                <div class = "animation">
+                    <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+                </div>
+                <nav>
+                    <p>
+                        <div class = "nowpage"><a href = "index.html">메인페이지</a></div>
+                        <div class = "page"><a href = "login.html">로그인</a></div>
+                        <div class = "page"><a href = "signup.html">회원가입</a></div>
+                    </p>
+                </nav>
+            </header>
+            <aside>
+                <form>
+                  <div>
+                    <label for="category">Choose a category:</label>
+                    <select id="category">
+                      <option selected>All</option>
+                      <option>pizza</option>
+                      <option>chicken</option>
+                      <option>others</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="searchTerm">Enter search term:</label>
+                    <input type="text" id="searchTerm" placeholder="e.g. beans">
+                  </div>
+                  <div>
+                    <select id = "sort">
+                        <option value = "price-asc">Price (Low to High)</option>
+                        <option value = "price-desc">Price (High to Low)</option>
+                    </select>
+                  </div>
+                  <div>
+                    <button>Filter results</button>
+                  </div>
+                </form>
+              </aside>
+            <main>
+              <div class="product-container"></div>
+              <div id="loading">Loading...</div>
+          
+            <div id="product-modal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-image" alt="Product Image">
+                <h3 id="modal-name"></h3>
+                <p id="modal-price"></p>
+                <p id="modal-description"></p>
+              </div>
+            </div>
+            </main>
+          
+            <script src="main.js"></script> 
+        </body>
+    </html>
